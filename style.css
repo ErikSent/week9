@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.result {
+    display: flex;
+}
+
+.input {
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.printOnce {
+    flex: 33%;
+}
+
+.printTwice {
+    flex: 33%;
+}
+
+.printTen {
+    flex: 33%;
+}
